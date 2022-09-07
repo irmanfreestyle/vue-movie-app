@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.backdrop {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.backdrop-filter {
+  background-image: linear-gradient(to right, rgba(53, 53, 95, 0.802) 150px, rgba(52.5, 52.5, 94.5, 0.84) 100%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
